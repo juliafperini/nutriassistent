@@ -1,0 +1,7 @@
+{
+  "name": "nutriassistent",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
