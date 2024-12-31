@@ -1,20 +1,69 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Nutri Assistent
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-img
+      class="logo-maior"
+      src="assets/icon/logo.svg"
+      alt="logo"
+    ></ion-img>
+
+    <!-- <ion-list>
+      <ion-item >
+        <ion-input 
+        label="E-mail" 
+        type="email" 
+        placeholder="exemplo@gmail.com" 
+        [(ngModel)]="email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input 
+        label="Senha" 
+        type="password" 
+        [(ngModel)]="senha"></ion-input>
+      </ion-item>
+    </ion-list> -->
+
+    <!-- <ion-button 
+    color="light" 
+    expand="full" 
+    (click)="logar(email, senha)">
+      Acessar
+    </ion-button> -->
+    
+    <ion-button color="light" 
+    (click)="loginWithGoogle()">
+      <ion-img
+      class="img-g"
+      src="assets/icon/g.svg"
+    ></ion-img>
+      Login com o Google
+    </ion-button>
+
+    <!-- <ion-button 
+    fill="clear">
+      Esqueci a senha
+    </ion-button>
+
+    <ion-button 
+    fill="clear" 
+    routerLink="/cadastro">
+      Novo cadastro
+    </ion-button> -->
+
+    
   </div>
 </ion-content>
+
+<!-- Rodapé -->
+<ion-footer>
+  <ion-toolbar>
+  </ion-toolbar>
+ </ion-footer>
+ <!-- Rodapé -->

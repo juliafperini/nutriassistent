@@ -1,0 +1,1128 @@
+1
+Animal
+Carnes e Proteínas
+Albumina
+340,00
+5,00
+80,00
+0,00
+2
+Animal
+Carnes e Proteínas
+Carne suína magra sem gordura (filé mignon suíno e lombo)
+210,23
+0,00
+35,73
+6,40
+3
+Animal
+Carnes e Proteínas
+Carne vermelha magra sem gordura (patinho, paleta, músculo, lagarto, filé mignon, coxão mole e coxão duro)
+219,26
+0,00
+35,90
+7,31
+4
+Animal
+Carnes e Proteínas
+Clara cozida
+57,00
+0,56
+13,40
+0,90
+5
+Animal
+Carnes e Proteínas
+Ovo, 1un=45g (mexido, cozido, omelete ou frito com pouco óleo)
+198,75
+1,31
+13,40
+15,40
+6
+Animal
+Carnes e Proteínas
+Peito de frango (grelhado, cozido ou desfiado)
+159,19
+0,00
+32,03
+2,48
+7
+Animal
+Carnes e Proteínas
+Peixe assado ou cozido sem óleo (atum, sardinha, bacalhau, tilápia e pescada)
+165,91
+0,00
+26,19
+6,00
+8
+Animal
+Carnes e Proteínas
+Whey Protein
+408,00
+10,00
+80,00
+5,33
+9
+Animal
+Carnes e Proteínas
+Presunto
+121,00
+2,32
+15,10
+5,70
+10
+Animal
+Carnes e Proteínas
+Peito de peru
+110,00
+3,75
+20,00
+1,75
+11
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+'Abóbora, cabotian, refogada
+50,00
+8,30
+1,44
+0,73
+12
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+'Abóbora, moranga, refogada
+29,00
+5,98
+0,39
+0,80
+13
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+Arroz 7 grãos cozido
+342,22
+71,11
+9,11
+4,22
+14
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+Arroz branco cozido
+128,26
+28,06
+2,52
+0,23
+15
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+Arroz integral cozido
+123,53
+25,81
+2,59
+1,00
+16
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+Batata baroa/Mandioquinha cozida
+80,12
+18,95
+0,85
+0,17
+17
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+Batata doce cozida
+76,76
+18,42
+0,64
+0,09
+18
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+Batata inglesa cozida
+51,59
+11,94
+1,16
+0,00
+19
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+'Beterraba
+32,15
+7,23
+1,29
+0,09
+20
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+'Cenoura
+29,86
+6,69
+0,85
+0,22
+21
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+Macarrão integral, molho de tomate
+114,00
+19,10
+4,27
+1,50
+22
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+Macarrão, molho de tomate
+115,00
+22,90
+3,19
+1,49
+23
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+Macarrão, alho e óleo
+180,00
+25,00
+3,66
+7,08
+24
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+Mandioca cozida
+125,36
+30,09
+0,58
+0,30
+25
+Vegetal
+Cereais, Raízes, Tubérculos e Frutos
+Milho verde cozido
+97,56
+17,14
+3,23
+2,35
+26
+Vegetal
+Feijão e Leguminosas
+Ervilha cozida
+73,84
+13,44
+4,60
+0,38
+27
+Vegetal
+Feijão e Leguminosas
+Ervilha em vagem cozida
+88,09
+14,23
+7,45
+0,47
+28
+Vegetal
+Feijão e Leguminosas
+Feijão azuk cozido
+128,00
+24,77
+7,52
+0,10
+29
+Vegetal
+Feijão e Leguminosas
+Feijão branco cozido
+130,00
+18,80
+9,73
+0,35
+30
+Vegetal
+Feijão e Leguminosas
+Feijão carioca cozido
+76,42
+13,59
+4,78
+0,54
+31
+Vegetal
+Feijão e Leguminosas
+Feijão fradinho cozido
+78,01
+13,50
+5,09
+0,64
+32
+Vegetal
+Feijão e Leguminosas
+Feijão preto cozido
+77,03
+14,01
+4,48
+0,54
+33
+Vegetal
+Feijão e Leguminosas
+Grão de bico cozido
+114,00
+13,20
+7,48
+1,84
+34
+Vegetal
+Feijão e Leguminosas
+Lentilha cozida
+92,64
+16,30
+6,31
+0,52
+35
+Vegetal
+Fibras A
+Aveia em flocos
+393,82
+66,64
+13,92
+8,50
+36
+Vegetal
+Fibras A
+Farelo de aveia
+340,00
+42,00
+18,00
+11,00
+37
+Vegetal
+Fibras A
+Granola
+490,00
+56,00
+12,00
+27,00
+38
+Vegetal
+Fibras B
+Chia
+443,00
+7,72
+16,50
+30,70
+39
+Vegetal
+Fibras B
+Linhaça
+453,00
+9,81
+14,10
+32,30
+40
+Vegetal
+Fibras B
+Psyllium
+443,00
+0,00
+0,00
+0,00
+41
+Vegetal
+Fibras B
+Canela em pó
+243,00
+27,50
+3,99
+1,24
+42
+Vegetal
+Fibras B
+Cacau em pó
+359,00
+20,90
+19,60
+13,70
+43
+Vegetal
+Frutas 
+Abacaxi
+48,32
+12,33
+0,86
+0,12
+44
+Vegetal
+Frutas 
+Ameixa crua
+52,54
+13,85
+0,77
+0,00
+45
+Vegetal
+Frutas 
+Banana Maçã
+86,81
+22,34
+1,75
+0,06
+46
+Vegetal
+Frutas 
+Banana nanica
+91,53
+23,85
+1,40
+0,12
+47
+Vegetal
+Frutas 
+Banana prata
+98,25
+25,96
+1,27
+0,07
+48
+Vegetal
+Frutas 
+Caju cru
+43,07
+10,29
+0,97
+0,33
+49
+Vegetal
+Frutas 
+Caqui
+71,35
+19,33
+0,36
+0,07
+50
+Vegetal
+Frutas 
+Goiaba
+54,17
+13,01
+1,09
+0,44
+51
+Vegetal
+Frutas 
+Kiwi
+51,14
+11,50
+1,34
+0,63
+52
+Vegetal
+Frutas 
+Laranja pêra
+36,77
+8,95
+1,04
+0,13
+53
+Vegetal
+Frutas 
+Maçã argentina
+62,53
+16,59
+0,23
+0,25
+54
+Vegetal
+Frutas 
+Maçã fuji
+55,52
+15,15
+0,29
+0,00
+55
+Vegetal
+Frutas 
+Mamão formosa
+45,34
+11,55
+0,82
+0,12
+56
+Vegetal
+Frutas 
+Mamão papaia
+40,16
+10,44
+0,46
+0,12
+57
+Vegetal
+Frutas 
+Manga
+72,49
+19,35
+0,41
+0,17
+58
+Vegetal
+Frutas 
+Melancia
+32,61
+8,14
+0,88
+0,00
+59
+Vegetal
+Frutas 
+Melão
+29,37
+7,53
+0,68
+0,00
+60
+Vegetal
+Frutas 
+Morango
+30,15
+6,82
+0,89
+0,31
+61
+Vegetal
+Frutas 
+Pera Willians crua
+53,31
+14,02
+0,57
+0,11
+62
+Vegetal
+Frutas 
+Pêssego
+36,33
+9,32
+0,83
+0,00
+63
+Vegetal
+Frutas 
+Uva Rubi ou Itália
+52,87
+13,57
+0,75
+0,20
+64
+Vegetal
+Frutas Oleosas
+Abacate
+96,15
+6,03
+1,24
+8,40
+65
+Vegetal
+Frutas Oleosas
+Avocado
+160,00
+1,83
+2,00
+14,70
+66
+Vegetal
+Frutas Oleosas
+Coco cru
+406,49
+10,40
+3,69
+41,98
+67
+Animal
+Leite e Derivados
+Coalhada Natural 
+147,00
+12,30
+10,40
+6,28
+68
+Animal
+Leite e Derivados
+Creme de ricota
+138,00
+3,79
+12,60
+8,11
+69
+Animal
+Leite e Derivados
+Iogurte grego desnatado
+96,00
+3,98
+9,00
+5,00
+70
+Animal
+Leite e Derivados
+Iogurte natural
+51,49
+1,92
+4,06
+3,04
+71
+Animal
+Leite e Derivados
+Leite de vaca, integral, pó
+496,65
+39,18
+25,42
+26,90
+72
+Animal
+Leite e Derivados
+Leite de vaca, desnatado, pó
+362,00
+53,00
+34,70
+0,90
+73
+Animal
+Leite e Derivados
+Leite de vaca, semidesnatado, pó
+404,50
+42,70
+30,00
+12,70
+74
+Animal
+Leite e Derivados
+Leite de vaca, integral, líquido
+65,00
+7,16
+2,35
+3,04
+75
+Animal
+Leite e Derivados
+Leite de vaca, desnatado, líquido
+39,00
+5,95
+2,98
+0,36
+76
+Animal
+Leite e Derivados
+Leite de vaca, semidesnatado, líquido
+55,00
+6,51
+3,23
+1,81
+77
+Animal
+Leite e Derivados
+Leite de vaca, sem lactose, líquido
+64,00
+4,80
+3,15
+3,25
+78
+Animal
+Leite e Derivados
+Leite de soja (enriquecido com cálcio)
+56,00
+9,54
+1,76
+1,16
+79
+Animal
+Leite e Derivados
+Queijo coalho
+335,00
+1,94
+23,70
+25,90
+80
+Animal
+Leite e Derivados
+Queijo minas frescal
+264,27
+3,24
+17,41
+20,18
+81
+Animal
+Leite e Derivados
+Queijo muçarela
+329,87
+3,05
+22,65
+25,18
+82
+Animal
+Leite e Derivados
+Queijo prato
+346,00
+0,20
+24,20
+27,60
+83
+Animal
+Leite e Derivados
+Queijo tipo cottage
+90,00
+2,60
+11,60
+3,60
+84
+Animal
+Leite e Derivados
+Requeijão cremoso
+256,58
+2,43
+9,63
+23,44
+85
+Vegetal
+Livre
+Açaí polpa
+58,05
+6,21
+0,80
+3,94
+86
+Vegetal
+Livre
+Acaí polpa com xarope de guraná
+110,30
+21,46
+0,72
+3,66
+87
+Vegetal
+Livre
+Chocolate ao leite
+539,59
+59,58
+7,22
+30,27
+88
+Vegetal
+Livre
+Chocolate meio amargo
+474,92
+62,42
+4,86
+29,86
+89
+Animal
+Livre
+Doce de leite
+306,31
+59,49
+5,48
+5,99
+90
+Animal
+Livre
+Leite condensado
+312,57
+57,00
+7,67
+6,74
+91
+Vegetal
+Livre
+Nesquik em pó
+385,71
+92,86
+0,00
+0,00
+92
+Vegetal
+Livre
+Nescau em pó
+370,00
+85,00
+3,50
+0,00
+93
+Animal
+Livre
+Sorvete 
+209,00
+25,70
+3,50
+10,10
+94
+Vegetal
+Livre
+Sucrilhos
+363,33
+86,67
+4,33
+0,00
+95
+Vegetal
+Livre
+Toddy em pó
+385,00
+90,00
+0,00
+0,00
+96
+Vegetal
+Oleaginosas e Sementes
+Amêndoa
+580,75
+29,55
+18,55
+47,32
+97
+Vegetal
+Oleaginosas e Sementes
+Amendoim torrado
+605,78
+18,70
+22,48
+53,96
+98
+Vegetal
+Oleaginosas e Sementes
+Avelã
+673,00
+8,20
+15,00
+62,40
+99
+Vegetal
+Oleaginosas e Sementes
+Castanha de caju
+570,17
+29,13
+18,51
+46,28
+100
+Vegetal
+Oleaginosas e Sementes
+Castanha-do-Brasil/Pará crua
+642,96
+15,08
+14,54
+63,46
+101
+Vegetal
+Oleaginosas e Sementes
+Farinha de linhaça dourada
+460,00
+38,00
+23,33
+26,67
+102
+Vegetal
+Oleaginosas e Sementes
+Noz crua
+620,06
+18,36
+13,97
+59,36
+103
+Vegetal
+Oleaginosas e Sementes
+Pasta de amendoim integral
+606,67
+21,33
+28,67
+49,33
+104
+Vegetal
+Oleaginosas e Sementes
+Pistache cru
+576,00
+16,60
+20,20
+45,30
+105
+Vegetal
+Oleaginosas e Sementes
+Semente de abóbora
+426,00
+35,40
+18,60
+19,40
+106
+Vegetal
+Oleaginosas e Sementes
+Semente de chia
+442,00
+7,72
+16,50
+30,70
+107
+Vegetal
+Oleaginosas e Sementes
+Semente de girassol
+639,00
+9,09
+17,20
+56,80
+108
+Vegetal
+Oleaginosas e Sementes
+Semente de linhaça
+495,10
+43,31
+14,08
+32,25
+109
+Vegetal
+Óleos e Gorduras 
+Azeite extra virgem
+884,00
+NA
+NA
+100,00
+110
+Vegetal
+Óleos e Gorduras 
+Manteiga sem sal
+757,54
+0,00
+0,40
+86,04
+111
+Vegetal
+Óleos e Gorduras 
+Óleo de Abacate
+900,00
+0,00
+0,00
+100,00
+112
+Vegetal
+Óleos e Gorduras 
+Óleo de Castanha do Pará
+900,00
+0,00
+0,00
+100,00
+113
+Vegetal
+Óleos e Gorduras 
+Óleo de linhaça
+899,00
+0,00
+0,11
+99,80
+114
+Vegetal
+Óleos e Gorduras 
+Óleo de soja
+884,00
+NA
+NA
+100,00
+115
+Vegetal
+Pães e Variedades
+Cuscuz de milho
+113,46
+25,28
+2,16
+0,68
+116
+Vegetal
+Pães e Variedades
+Pão de forma de milho
+292,01
+56,40
+8,30
+3,11
+117
+Vegetal
+Pães e Variedades
+Pão de forma integral
+253,19
+49,94
+9,43
+3,65
+118
+Vegetal
+Pães e Variedades
+Pão de forma tradicional
+252,99
+44,12
+11,95
+2,73
+119
+Vegetal
+Pães e Variedades
+Pão francês
+299,81
+58,65
+7,95
+3,10
+120
+Vegetal
+Pães e Variedades
+Pão tipo folha/rap
+227,50
+45,00
+6,50
+2,50
+121
+Vegetal
+Pães e Variedades
+Pipoca
+513,86
+57,53
+8,86
+29,32
+122
+Vegetal
+Pães e Variedades
+Tapioca 
+288,00
+71,70
+0,36
+0
+123
+Vegetal
+Pães e Variedades
+Torrada integral
+395,00
+72,30
+11,50
+6,39
+124
+Sucos
+Sucos Naturais e Integrais
+Suco de abacaxi
+17
+3,6
+0,23
+0,11
+125
+Sucos
+Sucos Naturais e Integrais
+Suco de laranja
+34
+7,55
+0,74
+0,07
+126
+Sucos
+Sucos Naturais e Integrais
+Suco de limão
+47
+9,9
+0,94
+0,14
+127
+Sucos
+Sucos Naturais e Integrais
+Suco de maracujá
+7
+1,05
+0,19
+0,2
+128
+Sucos
+Sucos Naturais e Integrais
+Suco integral de uva
+61
+14,6
+0,37
+0,13
+129
+Vegetais
+Vegetais A (livres para o consumo)
+Saladas, Abobrinha, Acelga, Agrião, Aspargo, Berinjela, Brócolis, Brotos, Cebola, Chicória, Cogumelos, Couve, Couve-Flor
+0,001
+0,001
+0,001
+0,001
+130
+Vegetais
+Vegetais A (livres para o consumo)
+Espinafre, Mostarda, Palmito, Pepino, Pimentão, Rabanete, Repolho, Tomate
+0,001
+0,001
+0,001
+0,001
+131
+Vegetais
+Vegetais B
+Abóbora, cabotian, refogada
+50
+8,3
+1,44
+0,73
+132
+Vegetais
+Vegetais B
+Abóbora, moranga, refogada
+29,00382203
+5,981916667
+0,39375
+0,799
+133
+Vegetais
+Vegetais B
+Beterraba
+32,15432433
+7,234916667
+1,29375
+0,092666667
+134
+Vegetais
+Vegetais B
+Cenoura
+29,86
+6,68
+0,84
+0,21
+135
+Vegetais
+Vegetais B
+Chuchu
+18,53979053
+4,793416667
+0,414583333
+0,001
+136
+Vegetais
+Vegetais B
+Ervilha
+73,84470435
+13,44217391
+4,597826087
+0,38
+137
+Vegetais
+Vegetais B
+Nabo
+18,18662464
+4,147101449
+1,202898551
+0,053333333
+138
+Vegetais
+Vegetais B
+Quiabo
+20
+1,94
+1,32
+0,12
+139
+Vegetais
+Vegetais B
+Shimeji
+16,8
+1,7
+2,5
+0,001
+140
+Vegetais
+Vegetais B
+Shitake
+61
+12,3
+1,56
+0,22
+141
+Vegetais
+Vegetais B
+Vagem
+23
+2,7
+1,6
+0,15

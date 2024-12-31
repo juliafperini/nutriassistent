@@ -1,0 +1,150 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Monte sua refeição
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" scrollY="true">
+  <ion-refresher slot="fixed" (ionRefresh)="handleRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+  <div id="container">
+    <ion-img
+      class="logo-menor"
+      src="assets/icon/logo.svg"
+      alt="logo">
+    </ion-img><br/>
+
+    <ion-card>
+      <ion-grid>
+
+          <ion-row>
+            <ion-col><strong>GRUPO</strong></ion-col>
+            <ion-col><strong>ALIMENTO</strong></ion-col>
+            <ion-col><strong>Qtd (g/ml)</strong></ion-col>
+          </ion-row>
+        
+        <div *ngFor="let alimento of refeicaoCalc.alimentosRef; let j = index">
+          <ion-row>
+            <ion-col size="1">
+              <ion-text class="txt-coluna"></ion-text><br/>
+                <ion-button color="danger" fill="clear" 
+                (click)="removerAlimento(j)">
+                X
+              </ion-button>
+            </ion-col>
+            <ion-col > 
+              <br/><br/>
+              <ion-select 
+              [(ngModel)]="refeicaoCalc.alimentosRef[j].alimentoGrupo" 
+              *ngIf="listaGrupos && refeicaoCalc.alimentosRef[j].alimentoGrupo === ''">
+                <ion-select-option *ngFor="let grupos of listaGrupos">{{grupos}}</ion-select-option>
+              </ion-select>
+
+              <ion-label *ngIf="refeicaoCalc.alimentosRef[j].alimentoGrupo !== ''"> 
+              {{refeicaoCalc.alimentosRef[j].alimentoGrupo}} 
+              </ion-label>
+            </ion-col>
+
+            <ion-col>
+              <br/><br/>
+
+              <ion-select 
+              [(ngModel)]="refeicaoCalc.alimentosRef[j].alimentoDesc" 
+              *ngIf="refeicaoCalc.alimentosRef[j].alimentoDesc ===''">
+                  <ion-select-option 
+                  *ngFor="let alimento of filtrarAlimentosPorGrupo(listaAlimentos, refeicaoCalc.alimentosRef[j].alimentoGrupo)">
+                  {{alimento.descricao}}
+                </ion-select-option>
+              </ion-select>
+
+              <ion-label 
+              *ngIf="refeicaoCalc.alimentosRef[j].alimentoDesc!==''"> 
+              {{refeicaoCalc.alimentosRef[j].alimentoDesc}} 
+              </ion-label>
+
+            </ion-col>
+
+            <ion-col >  
+              <br/>
+              <ion-input
+              [(ngModel)]="refeicaoCalc.alimentosRef[j].quantAlimento" 
+              (ionChange)="adicionarAlimentoRef(j,refeicaoCalc.alimentosRef[j].quantAlimento, refeicaoCalc.alimentosRef[j].alimentoDesc)" 
+              type="number">
+              </ion-input>
+            </ion-col> 
+        </ion-row>
+      </div>
+      
+      <ion-item *ngIf="this.refeicaoCalc.alimentosRef.length">
+        <ion-label>Kcal: {{this.refeicaoCalc.caloriaRef}}</ion-label>
+        <ion-label>Prot: {{this.refeicaoCalc.proteinaRef}}</ion-label>
+        <ion-label>Carb: {{this.refeicaoCalc.carboRef}}</ion-label>
+        <ion-label>lip: {{this.refeicaoCalc.lipRef}}</ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-button class="btn" (click)="adicionarLinha()" fill="clear">
+          <ion-icon name="add-circle-outline"></ion-icon> Alimento
+        </ion-button>
+      </ion-item>
+
+    </ion-grid><br/>
+  </ion-card> <br/>
+
+  <div *ngIf="this.refeicaoCalc.alimentosRef.length">
+    <div class="card-grafico-d">
+      <div class="row">
+        <div class="chart-container">
+          <ion-text *ngIf="this.refeicaoCalc.caloriaRef > 0">Nutrientes totais</ion-text>
+          <canvas class="chart-d" id="chartDoughnut"></canvas>
+        </div>
+        <div class="chart-container">
+          <ion-text *ngIf="this.refeicaoCalc.caloriaRef > 0">Calorias por alimento</ion-text>
+          <canvas class="chart-d" id="chartCalorias"></canvas>
+        </div>
+      </div>
+    </div><br/>
+
+    <div class = "card-grafico">
+      <ion-text *ngIf="this.refeicaoCalc.caloriaRef > 0">Nutrientes da refeição</ion-text><br/>
+      <div class="chart-container-horizontal">
+        <canvas class = "chart-horizontal" id="chartNutrientes"></canvas>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+</ion-content>
+
+<!-- Rodapé -->
+<ion-footer>
+  <ion-toolbar>
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+
+        <!-- Link para Empregado -->
+        <ion-tab-button (click)="home()">
+          <ion-icon color="medium" name="home-outline"></ion-icon>
+        </ion-tab-button>
+
+        <!-- Botão de Atualizar -->
+        <ion-tab-button (click)="refresh()">
+          <ion-icon color="medium" name="refresh-outline"></ion-icon>
+        </ion-tab-button>
+
+        <!-- Botão de Sair -->
+        <ion-tab-button (click)="sair()">
+          <ion-icon color="medium" name="log-out-outline"></ion-icon>
+        </ion-tab-button>
+        
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+
+ </ion-footer>
+ <!-- Rodapé -->
+

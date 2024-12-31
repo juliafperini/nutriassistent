@@ -1,0 +1,11 @@
+{
+  "name": "Nutri Assistent",
+  "short_name": "NutriApp",
+  "description": "Aplicativo de nutrição para monitoramento e gerenciamento de hábitos alimentares",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1976d2",
+  "orientation": "any",
+  "scope": "/"
+}

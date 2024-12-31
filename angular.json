@@ -32,7 +32,11 @@
               }
             ],
             "styles": ["src/global.scss", "src/theme/variables.scss"],
-            "scripts": []
+            "scripts": [
+              "node_modules/chart.js/dist/chart.min.js"
+            ],
+            "serviceWorker": true,
+            "ngswConfigPath": "ngsw-config.json"
           },
           "configurations": {
             "production": {
@@ -54,7 +58,9 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "none",
+              "sourceMap": false,
+              "buildOptimizer": false
             },
             "development": {
               "buildOptimizer": false,
@@ -136,7 +142,8 @@
   "cli": {
     "schematicCollections": [
       "@ionic/angular-toolkit"
-    ]
+    ],
+    "analytics": "8b790d87-48cc-4487-b95e-90ded69ccf1b"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {

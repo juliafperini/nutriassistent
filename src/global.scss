@@ -35,3 +35,71 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+#container {
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+
+  }
+
+
+.logo-maior{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    opacity: 0.4;
+
+    min-width: 110px;
+    min-height: 110px;
+
+}
+
+.logo-menor{
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+    opacity: 0.4;
+
+    // min-width: 110px;
+    // min-height: 110px;
+
+}
+
+.logo-dash{
+    width: 50%;
+    margin: auto;
+}
+
+ion-list{
+    margin: auto;
+}
+
+ion-button{
+    margin: auto;
+    padding: 5px;
+    min-height: 50px;
+    font-size: 14px;
+}
+
+.button-dash{
+    opacity: 0.7;
+    width: 45%;
+    min-width: 200px;
+    min-height: 200px;
+  
+    max-width: 250px;
+    max-height: 250px;
+  
+    margin: auto;
+    padding: 10px;
+}
+
+ion-label{
+    margin: auto;
+}
+
+ion-title{
+    color: rgb(138, 138, 138);
+}

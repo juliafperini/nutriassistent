@@ -1,0 +1,62 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Nutri Assistent
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" scrollY="true">
+  <div id="container">
+    <ion-img
+      class="logo-maior"
+      src="assets/icon/logo.svg"
+      alt="logo">
+    </ion-img>
+
+      <!-- botao calculadora -->
+
+        <ion-button 
+        fill="solid" color="light" 
+        class = "button-dash"
+        routerLink="/calculadora-kcal/{{usuario?.codUser}}">
+        <ion-label>
+          <img 
+          src="assets/icon/calc.svg" 
+          class = "logo-dash"/>
+            <p>Monte sua refeição</p>
+          </ion-label>
+      </ion-button>
+
+    <!-- botao evolução -->
+      <ion-button 
+      fill="solid" color="light" 
+      class = "button-dash"
+      routerLink="/minha-evolucao/{{usuario?.codUser}}">
+      <ion-label>
+        <img 
+        src="assets/icon/evolucao.svg" 
+        class = "logo-dash"/>
+          <p>Acompanhe sua evolução</p>
+        </ion-label>
+    </ion-button>
+
+    
+
+  </div>
+</ion-content>
+
+<!-- Rodapé -->
+<ion-footer>
+  <ion-toolbar>
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button (click)="sair()">
+          SAIR
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+ </ion-footer>
+ <!-- Rodapé -->
+

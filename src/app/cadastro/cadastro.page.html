@@ -1,0 +1,70 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-progress-bar *ngIf="mostrarBarraProgresso" [value]="progress"></ion-progress-bar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" scrollY="true">
+  <div id="container">
+    <ion-img
+      class="logo-maior"
+      src="assets/icon/logo.svg"
+      alt="logo">
+    </ion-img>
+
+    <ion-list>
+      <ion-item>
+        <ion-input placeholder="Nome" 
+        [(ngModel)]="usuario.nome">
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input 
+        placeholder="E-mail" 
+        type="email" 
+        required [(ngModel)]="usuario.email">
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input 
+        placeholder="Senha:" 
+        type="password" 
+        value="" 
+        [(ngModel)]="senha">
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input 
+        placeholder="Repetir senha:" 
+        type="password" 
+        value="" 
+        [(ngModel)]="repetirSenha">
+        </ion-input>
+      </ion-item>
+    </ion-list><br/>
+
+    <ion-button 
+    color="light" 
+    expand="full" 
+    (click)="adicionarUsuario()">
+    Cadastrar
+    </ion-button>
+
+    <ion-item 
+    *ngIf="senha !== repetirSenha">
+      <ion-label 
+      color="danger"> 
+      As senhas não correspondem.
+      </ion-label>
+    </ion-item>
+
+  </div>
+</ion-content>
+
+<!-- Rodapé -->
+<ion-footer>
+  <ion-toolbar>
+  </ion-toolbar>
+ </ion-footer>
+ <!-- Rodapé -->
+

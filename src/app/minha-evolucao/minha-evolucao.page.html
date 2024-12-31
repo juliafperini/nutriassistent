@@ -1,0 +1,184 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Acompanhe sua evolução
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" scrollY="true">
+  <ion-refresher slot="fixed" (ionRefresh)="handleRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+  <div id="container">
+    <ion-img
+      class="logo-menor"
+      src="assets/icon/logo.svg"
+      alt="logo">
+    </ion-img><br/>
+
+    <ion-item>
+      <ion-input
+      label="Peso(kg)*"
+      labelPlacement="stacked"
+      [clearInput]=true
+      placeholder="Ex.: 60.10"
+      type="number"
+      [(ngModel)]="evolucao.peso"
+      (ionChange)="validarFormato($event)"
+      required>
+      </ion-input>
+
+      <ion-input
+      label="Cintura(cm)*"
+      labelPlacement="stacked"
+      [clearInput]="true"
+      placeholder="Ex.: 65.20"
+      type="float"
+      [(ngModel)]="evolucao.cintura"
+      (ionChange)="validarFormato($event)"
+      required>
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input
+      label="Abdomen(cm)*"
+      labelPlacement="stacked"
+      [clearInput]="true"
+      placeholder="Ex.: 80.10"
+      [(ngModel)]="evolucao.abdomen"
+      (ionChange)="validarFormato($event)"
+      required>
+      </ion-input>
+
+      <ion-input
+      label="Quadril(cm)"
+      labelPlacement="stacked"
+      [clearInput]="true"
+      placeholder="Ex.: 90.30"
+      [(ngModel)]="evolucao.quadril"
+      (ionChange)="validarFormato($event)"
+      required>
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input
+      label="Coxa (cm)"
+      labelPlacement="stacked"
+      [clearInput]="true"
+      placeholder="Ex.: 90.50"
+      [(ngModel)]="evolucao.coxa"
+      (ionChange)="validarFormato($event)"
+      required>
+      </ion-input>
+
+      <ion-input
+      label="Braço (cm)"
+      labelPlacement="stacked"
+      [clearInput]="true"
+      placeholder="Ex.: 90.50"
+      [(ngModel)]="evolucao.braco"
+      (ionChange)="validarFormato($event)"
+      required>
+      </ion-input>
+    </ion-item>
+
+    <ion-item *ngIf="valorInvalido">
+      <ion-text 
+      color="danger">
+        Por favor, utilize ponto e duas casas decimais (ex: 1.75, ex. 60.10).
+      </ion-text>
+    </ion-item><br/>
+
+    <ion-button
+       color="light"
+       (click)="atualizarMedidas()"
+       expand="full"
+       >Enviar medidas
+    </ion-button><br/>
+
+
+
+    <ion-card color="light">
+      <ion-card-header>
+        <ion-card-title>Histórico - Últimas 10 Medidas</ion-card-title>
+      </ion-card-header>
+  
+      <ion-card-content>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2"><strong>Data</strong></ion-col>
+            <ion-col size="2"><strong>Peso (kg)</strong></ion-col>
+            <ion-col size="2"><strong>Abdômen (cm)</strong></ion-col>
+            <ion-col size="2"><strong>Cintura (cm)</strong></ion-col>
+            <ion-col size="2"><strong>Quadril (cm)</strong></ion-col>
+            <ion-col size="2"><strong>Coxa (cm)</strong></ion-col>
+            <ion-col size="2"><strong>Braço (cm)</strong></ion-col>
+          </ion-row>
+  
+          <ion-row *ngFor="let evolucao of tabelaEvolucoes">
+            <ion-col size="2">{{ evolucao.data }}</ion-col>
+            <ion-col size="2">{{ evolucao.peso }}</ion-col>
+            <ion-col size="2">{{ evolucao.abdomen }}</ion-col>
+            <ion-col size="2">{{ evolucao.cintura }}</ion-col>
+            <ion-col size="2">{{ evolucao.quadril }}</ion-col>
+            <ion-col size="2">{{ evolucao.coxa }}</ion-col>
+            <ion-col size="2">{{ evolucao.braco }}</ion-col>
+          </ion-row>
+        </ion-grid>
+  
+        <p *ngIf="tabelaEvolucoes.length === 0">Nenhuma medida adicionada.</p>
+      </ion-card-content>
+    </ion-card>
+
+      <div class="card-grafico-evolucao">
+        <canvas id="chartEvolucao"></canvas>
+      </div>  
+
+    <ion-card color="light" *ngIf="usuario?.evolucao">
+      <div class="checkbox-container">
+        <div *ngFor="let medida of medidasDisponiveis">
+          <label>
+            <input 
+              type="checkbox" 
+              [(ngModel)]="medida.selecionada" 
+              (change)="atualizarGrafico()"
+            />
+            {{ medida.nome }}
+          </label>
+        </div>
+      </div>
+    </ion-card>
+
+  </div>
+</ion-content>
+
+<!-- Rodapé -->
+<ion-footer>
+  <ion-toolbar>
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+
+        <!-- Link para Empregado -->
+        <ion-tab-button (click)="home()">
+          <ion-icon color="medium" name="home-outline"></ion-icon>
+        </ion-tab-button>
+
+        <!-- Botão de Atualizar -->
+        <ion-tab-button (click)="refresh()">
+          <ion-icon color="medium" name="refresh-outline"></ion-icon>
+        </ion-tab-button>
+
+        <!-- Botão de Sair -->
+        <ion-tab-button (click)="sair()">
+          <ion-icon color="medium" name="log-out-outline"></ion-icon>
+        </ion-tab-button>
+        
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+ </ion-footer>
+ <!-- Rodapé -->
+
